@@ -18,7 +18,7 @@ mod templates;
 static ALLOWED_ORIGINS: Lazy<[&str; 2]> = Lazy::new(|| [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://tezado-anime-gen.vercel.app",
+    "https://tezado-anime-gen.vercel.app"
 ]);
 
 // Reqwest client pool
